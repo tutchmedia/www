@@ -1,0 +1,8 @@
+.burger{
+    height:95px;
+    width:95px;
+    border-radius:5px;
+    background-color:lightblue;
+    float:left;
+    margin:5px;
+}
