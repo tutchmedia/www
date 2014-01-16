@@ -228,24 +228,6 @@
     }
 
 })(this);Ext.blink({"id":"ef819656-8b77-4df2-baba-fb0b38002f34","js":[{"path":"phonegap.js","remote":true},{"path":"phonegap.js","remote":true},{"path":"app.js","update":"delta"},{"path":"Ux/palominolabs/stackmob/data/proxy/StackMob.js"}],"css":[{"path":"theme/cupertino-cf554dd5-ce63-41a9-ad15-de4aec6c5778.css","update":"delta","theme":"Cupertino","platform":["phone","tablet","desktop"]},{"path":"app/style.css"}]});</script>
-    <script src="barcodescanner.js"></script>
-    <script type="text/javascript">
-
-    function encode()
-    {
-        cordova.plugins.barcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
-            alert("encode success: " + success);
-          }, function(fail) {
-            alert("encoding failed: " + fail);
-          }
-        );
-
-    }
-
-
-    encode();
-
-    </script>
 </head>
 <body>
     <div id="appLoadingIndicator">
