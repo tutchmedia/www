@@ -94,3 +94,13 @@
 .x-list .x-list-item.x-list-item-tpl:before {
     border:0px !important;
 }
+.x-tabbar {
+    background-image:url("images/tabbar.png");
+}
+.x-tab .x-button-icon:before, .x-button .x-button-icon:before {
+    color:white !important;
+}
+
+.x-tab.x-tab-active .x-button-icon:before, .x-tab.x-tab-active .x-button-label, .x-tab.x-tab-active .x-badge {
+    color:white !important;
+}
