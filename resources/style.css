@@ -96,6 +96,7 @@
 }
 .x-tabbar {
     background-image:url("images/tabbar.png");
+    border-color:transparent !important;
 }
 .x-tab .x-button-icon:before, .x-button .x-button-icon:before {
     color:white !important;
