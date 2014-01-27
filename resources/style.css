@@ -105,3 +105,11 @@
 .x-tab.x-tab-active .x-button-icon:before, .x-tab.x-tab-active .x-button-label, .x-tab.x-tab-active .x-badge {
     color:white !important;
 }
+.x-toolbar {
+    background-image:url("images/tabbar.png");
+    border-radius:0px !important;
+    border:0px !important;
+}
+.x-tabbar.x-docked-bottom {
+    min-height:0px;
+}
