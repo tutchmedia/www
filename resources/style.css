@@ -113,3 +113,27 @@
 .x-tabbar.x-docked-bottom {
     min-height:0px;
 }
+.menuButton{
+    background-image:url('images/burger.png');
+    height:24px !important;
+    width:28px !important;
+}
+.dashButton{
+    background-image:url('images/dashboard.png');
+    height:24px !important;
+    width:28px !important;
+}
+.accountButton{
+    background-image:url('images/account.png');
+    height:24px !important;
+    width:28px !important;
+}
+.menuButton img{
+    margin-top:4px;
+}
+.x-tabbar.x-docked-bottom .x-tab .x-button-icon {
+    margin-top:5px;
+}
+.x-tab .x-button-label, .x-tab .x-badge {
+    margin-top:-5px;
+}
